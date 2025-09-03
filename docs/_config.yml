@@ -39,10 +39,10 @@ html:
   comments:
     utterances:
       repo: "Indie-Garage/copilot-studio"
-      issue-term: "title"
-      label: "comment"
-  # analytics:
-  #   google_analytics_id: G-XXXXXXX
+      # issue-term: "title"
+      # label: "comment"
+  analytics:
+    google_analytics_id: G-JRMK3LCT6F
 
 sphinx:
   config:
