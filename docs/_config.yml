@@ -36,13 +36,15 @@ html:
   home_page_in_navbar: true
   use_issues_button: true
   use_repository_button: true
-  comments:
-    utterances:
-      repo: "Indie-Garage/copilot-studio"
-      # issue-term: "title"
-      # label: "comment"
   analytics:
     google_analytics_id: G-JRMK3LCT6F
+
+comments:
+  provider: "utterances"
+  utterances:
+    repo: "Indie-Garage/copilot-studio"
+    # issue-term: "title"
+    # label: "comment"
 
 sphinx:
   config:
