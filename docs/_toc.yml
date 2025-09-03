@@ -1,0 +1,15 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters: 
+- file: notice.md
+- file: 00a-upload-data.md
+- file: 00b-create-solution.md
+- file: 01-event-prep-assistant.md
+- file: 02-data-preprocessing-agent.md
+- file: 03-quotation-generating-agent.md
+- file: 04-advanced-knowledge-technique.md
+- file: 05-news-agent.md
+- file: 06-advanced-data-preprocessing-agent.md
