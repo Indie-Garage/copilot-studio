@@ -1,7 +1,7 @@
 # 프로젝트1 - 사내 행사 준비 업무 도우미 에이전트
 
 ## 학습 목표
-- M365 Copilot에 내장된 에이전트 빌더 활용
+- M365 Copilot에 내장된 [Copilot Studio Lite](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-experience) 활용
 - 지침(Instructions) 이해
 - 지식(Knowledge) 이해
 - 기능(Capabilities) 이해
@@ -113,7 +113,7 @@
 ![](../../imgs/01-event-prep-assistant/25.PNG)
 
 ```{Note}
-간혹 에이전트 빌더 화면 내에서 설정을 변경 한뒤 우측 테스트 화면에서 테스트 할 경우 변경 사항이 제대로 반영 안 된 상태로 테스트가 이뤄질 수 있다. 그런 경우 변경 사항을 배포한 뒤 배포된 에이전트 상에서 테스트를 하는 방법이 있다.
+간혹 Copilot Studio Lite 화면 내에서 설정을 변경 한뒤 우측 테스트 화면에서 테스트 할 경우 변경 사항이 제대로 반영 안 된 상태로 테스트가 이뤄질 수 있다. 그런 경우 변경 사항을 배포한 뒤 배포된 에이전트 상에서 테스트를 하는 방법이 있다.
 ```
 
 26. 업데이트가 완료 되면 `에이전트로 이동`을 클릭한다.
