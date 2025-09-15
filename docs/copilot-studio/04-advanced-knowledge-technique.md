@@ -1,6 +1,7 @@
 # 프로젝트4 - 사내 및 사외 문서 기반 답변 에이전트
 
-## 학습 목표
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iUTrr4kwQEc" title="프로젝트4 사내 및 사외 문서 기반 답변 에이전트" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 - 퍼블릭 웹사이트 지식(Knowledge)의 특징 및 한계점 이해
 - 토픽(Topic), 적응형 카드(Adaptive Card) 이해
 - 토픽, 적응형 카드, 및 Power Fx를 활용한 결정론적인 방법으로 에이전트가 참조할 수 있는 지식의 범위를 제어하는 테크닉 이해

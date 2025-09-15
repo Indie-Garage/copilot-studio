@@ -1,5 +1,7 @@
 # 프로젝트3 - 견적서 생성 에이전트
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UCHbtPO8grM" title="프로젝트3 견적서 생성 에이전트" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 학습 목표
 - 지식 (Knowledge)
 - 원드라이브 (OneDrive) 커넥터 이해

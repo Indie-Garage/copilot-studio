@@ -1,5 +1,7 @@
 # 프로젝트1 - 사내 행사 준비 업무 도우미 에이전트
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C-UtF2UK1uY" title="프로젝트1 사내 행사 준비 업무 도우미 에이전트" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 학습 목표
 - M365 Copilot에 내장된 [Copilot Studio Lite](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-experience) 활용
 - 지침(Instructions) 이해

@@ -1,5 +1,7 @@
 # 프로젝트2 - 데이터 정리 에이전트
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NUZBSYxd13A" title="프로젝트2 데이터 정리 에이전트" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 학습 목표
 - 팀즈 (Teams) 커넥터 이해
 - 엑셀 (Excel) 커넥터 이해
