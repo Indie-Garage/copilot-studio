@@ -8,3 +8,6 @@ Microsoft에서 제공하는 에이전트 플랫폼인 Copilot Studio를 도입�
 | 사진 | 성함 | 소개 |
 |:-----:|:--------|:------|
 |<img src="https://avatars.githubusercontent.com/u/46511987?v=4" width="100" height="100">|[안성진](https://www.linkedin.com/in/sungjin-ahn/)|Microsoft Certified Trainer (MCT) |
+
+## 에이전트 시나리오
+<iframe title="copilot-studio-agents-scenario-report" width="800" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiYWY1ZDM1N2EtMzEyYi00YWM4LWIwMzUtYmE1ZDFjYThiM2YxIiwidCI6Ijk4YmVkNzNjLTlkODUtNDUyNC1iZWUyLWMzOGY5MzAzYjcxNyJ9" frameborder="0" allowFullScreen="true"></iframe>
