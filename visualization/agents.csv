@@ -1,0 +1,5 @@
+agent_id,agent_name,url
+1,사내 행사 준비 업무 도우미 에이전트,https://learn.indie-garage.com/copilot-studio/01-event-prep-assistant.html
+2,데이터 정리 에이전트,https://learn.indie-garage.com/copilot-studio/02-data-preprocessing-agent.html
+3,견적서 생성 에이전트,https://learn.indie-garage.com/copilot-studio/03-quotation-generating-agent.html
+4,사내 및 사외 문서 기반 답변 에이전트,https://learn.indie-garage.com/copilot-studio/04-advanced-knowledge-technique.html

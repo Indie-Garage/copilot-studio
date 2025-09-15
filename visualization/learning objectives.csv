@@ -1,0 +1,10 @@
+obj_id,obj_name
+excel,Excel(엑셀) 커넥터
+teams,Teams(팀즈) 커넥터
+onedrive,OneDrive(원드라이브) 커넥터
+outlook,Outlook(아웃룩) 커넥터
+knowledge,Knowledge(지식)
+powerfx,PowerFx
+adaptivecard,Adaptive Card(적응형 카드)
+topic,Topic(토픽)
+codeinterpreter,Code Interpreter(코드 해석기)
