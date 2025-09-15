@@ -93,7 +93,7 @@ Activity.Text에는 사용자가 보낸 가장 최근 메시지가 저장되어 
 21. `적응형 카드 편집`을 클릭한다.
 ![](../../imgs/04-advanced-knowledge-technique/21.PNG)
 
-22. `카드 페이로드 편집기`에 project4-snippets.txt 파일 내 22번 값을 입력한다. `Save`를 클릭한 뒤 `Close`를 클릭한다.
+22. `카드 페이로드 편집기`에 [project4-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project4-snippets.txt) 파일 내 22번 값을 입력한다. `Save`를 클릭한 뒤 `Close`를 클릭한다.
 ![](../../imgs/04-advanced-knowledge-technique/22.PNG)
 
 ```{Note}
@@ -112,7 +112,7 @@ Activity.Text에는 사용자가 보낸 가장 최근 메시지가 저장되어 
 26. SharePoint의 설정을 `수식`으로 변경한다.
 ![](../../imgs/04-advanced-knowledge-technique/26.PNG)
 
-27. SharePoint의 `... > 수식`을 클릭한 뒤 수식 입력란에 project4-snippets.txt 파일 내 27번 값을 적절하게 수정한 뒤 입력한다. 그리고 `삽입`을 클릭한다.
+27. SharePoint의 `... > 수식`을 클릭한 뒤 수식 입력란에 [project4-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project4-snippets.txt) 파일 내 27번 값을 적절하게 수정한 뒤 입력한다. 그리고 `삽입`을 클릭한다.
 ![](../../imgs/04-advanced-knowledge-technique/27.PNG)
 
 28. `노드 추가 > 토픽 관리 > 현재 토픽 종료`를 클릭한다.
@@ -124,7 +124,7 @@ Activity.Text에는 사용자가 보낸 가장 최근 메시지가 저장되어 
 30. `지식 > 일반 참조 자료 사용`을 비활성화 한 뒤 `저장`을 클릭한다. 그리고 `X`를 클릭한다.
 ![](../../imgs/04-advanced-knowledge-technique/30.PNG)
 
-31. `개요` 페이지로 이동한 뒤 `지침`을 project4-snippets.txt 파일 내 31번 값으로 수정한다. 테스트 입력란에 `출장비 얼마까지 지원되나요`를 입력 및 전송한다.
+31. `개요` 페이지로 이동한 뒤 `지침`을 [project4-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project4-snippets.txt) 파일 내 31번 값으로 수정한다. 테스트 입력란에 `출장비 얼마까지 지원되나요`를 입력 및 전송한다.
 ![](../../imgs/04-advanced-knowledge-technique/31.PNG)
 
 ```{Note}

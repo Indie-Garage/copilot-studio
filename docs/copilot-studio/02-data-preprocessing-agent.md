@@ -64,10 +64,10 @@
 10. AI에게 `Team` 입력 값에는 어떤 값이 들어와야 하는지 알려주기 위해 `사용자 지정`을 클릭한다.
 ![](../../imgs/02-data-preprocessing-agent/10.PNG)
 
-11. `설명`란에 project2-snippets.txt 파일 내 11번에 있는 문구를 입력한다.
+11. `설명`란에 [project2-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project2-snippets.txt) 파일 내 11번에 있는 문구를 입력한다.
 ![](../../imgs/02-data-preprocessing-agent/11.PNG)
 
-12. `Channel` 입력 값과 `Message` 입력 값에도 project2-snippets.txt 파일 내 12번에 있는 문구를 각각 입력하여 어떤 값이 각 파라미터에 입력되어야 하는지 알려준다.
+12. `Channel` 입력 값과 `Message` 입력 값에도 [project2-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project2-snippets.txt) 파일 내 12번에 있는 문구를 각각 입력하여 어떤 값이 각 파라미터에 입력되어야 하는지 알려준다.
 ![](../../imgs/02-data-preprocessing-agent/12.PNG)
 
 13. `완료 > 실행 후` 설정을 `특정 응답 보내기(아래에 지정)`으로 설정한 뒤 `표시할 메시지`에 `메시지 조회 완료`를 입력한다. `저장`을 클릭한 뒤 `개요`로 이동한다.
@@ -77,7 +77,7 @@
 위와 같은 설정을 통해 해당 도구가 실행되었음을 에이전트 사용자가 알 수 있게 메시지를 출력하게 된다.
 ```
 
-14. project2-snippets.txt 파일 내 14번 값을 복사하여 `지침`에 입력한다. 이 때 <> 사이에 있는 값들은 `/`(슬래쉬)를 사용하여 해당 도구를 찾아서 입력한다. 테스트 입력란에 Teams 채널 내 샘플 데이터가 담긴 게시물의 공유 링크를 복사하여 입력한 뒤 전송한다.
+14. [project2-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project2-snippets.txt) 파일 내 14번 값을 복사하여 `지침`에 입력한다. 이 때 <> 사이에 있는 값들은 `/`(슬래쉬)를 사용하여 해당 도구를 찾아서 입력한다. 테스트 입력란에 Teams 채널 내 샘플 데이터가 담긴 게시물의 공유 링크를 복사하여 입력한 뒤 전송한다.
 ![](../../imgs/02-data-preprocessing-agent/14.PNG)
 
 15. `활동 지도`를 확인하면 `채널 메시지의 회신 나열` 도구가 실행된 것을 확인할 수 있다. `입력` 화면을 확인해보면, 테스트로 입력한 링크로 부터 적절한 값들이 파싱되어서 각 입력 파라미터에 잘 대응되어 전달된 것을 확인할 수 있다.
@@ -90,7 +90,7 @@
 커넥터의 특성 상 최근 20개의 댓글까지 반환하고, 파라미터를 조절하여 최대 50개 까지 반환할 수 있다.
 ```
 
-17. project2-snippets.txt 파일 내 17번 값을 사용하여 `지침`을 수정한다. 그리고 테스트 입력란에 다시 한번 더 Teams 게시물 공유 링크를 입력 및 전송한다.
+17. [project2-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project2-snippets.txt) 파일 내 17번 값을 사용하여 `지침`을 수정한다. 그리고 테스트 입력란에 다시 한번 더 Teams 게시물 공유 링크를 입력 및 전송한다.
 ![](../../imgs/02-data-preprocessing-agent/17.PNG)
 
 18. 테스트 화면에 답변을 보면 날짜와 시간 관련 의미가 담긴 메시지만 출력된 것을 볼 수 있다.
@@ -100,7 +100,7 @@
 출력이 안 되거나, 의도한 결과물이 안 나올 수도 있다. 새로고침을 몇번 한 뒤 시도해보면 해결되는 경우도 있다. 플랫폼의 안정성 및 기반 모델의 성능이 향상되면 추후 해결될 수 있어 보인다. 
 ```
 
-19. `개요` 페이지로 이동하여 project2-snippets.txt 파일 내 19번 값을 활용해 `지침`을 수정한다. 그리고 테스트 입력란에 다시 한번 더 Teams 게시물 공유 링크를 입력 및 전송한다.
+19. `개요` 페이지로 이동하여 [project2-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project2-snippets.txt) 파일 내 19번 값을 활용해 `지침`을 수정한다. 그리고 테스트 입력란에 다시 한번 더 Teams 게시물 공유 링크를 입력 및 전송한다.
 ![](../../imgs/02-data-preprocessing-agent/19.PNG)
 
 20. 잘 진행되었다면 JSON 구조로 변환된 결과물이 테스트 화면에 나오는 것을 확인할 수 있다. `활동 지도`에 `참조 자료` 작업이 진행된 것을 확인할 수 있다. `웹 검색`을 비활성화 해두었더라도, 자체 LLM 지식을 기반으로 답변하는 기능이 여전히 활성화 되어 있기 때문이다. 해당 기능을 비활성화 해주기 위해 `설정`을 클릭한다.
@@ -137,13 +137,13 @@
 - `Table`: `사용자 지정 값`, `휴가종합표`
 ![](../../imgs/02-data-preprocessing-agent/28.PNG)
 
-29. project2-snippets.txt 파일 내 29번 값을 `Row`의 `설명`에 입력한다. 그리고 `X`를 클릭한다.
+29. [project2-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project2-snippets.txt) 파일 내 29번 값을 `Row`의 `설명`에 입력한다. 그리고 `X`를 클릭한다.
 ![](../../imgs/02-data-preprocessing-agent/29.PNG)
 
 30. `완료`의 `실행 후` 값을 `생성형 AI로 응답 작성`으로 설정한다. `저장`을 클릭한 뒤 `개요` 페이지로 이동한다.
 ![](../../imgs/02-data-preprocessing-agent/30.PNG)
 
-31. project2-snippets.txt 파일 내 31번 값을 사용하여 `지침`을 수정한다. 테스트 화면에 Teams 게시물 공유 링크를 입력 및 전송한다.
+31. [project2-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project2-snippets.txt) 파일 내 31번 값을 사용하여 `지침`을 수정한다. 테스트 화면에 Teams 게시물 공유 링크를 입력 및 전송한다.
 ![](../../imgs/02-data-preprocessing-agent/31.PNG)
 
 ```{Note}

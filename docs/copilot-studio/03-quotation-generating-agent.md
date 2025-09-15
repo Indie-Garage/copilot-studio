@@ -139,7 +139,7 @@ Table에는 엑셀 내에 만들어 둔 테이블이 선택지로 표시된다. 
 32. `File`을 `AI로 동적으로 채우기`로 설정한다. 그리고 `사용자 지정`을 클릭한다.
 ![](../../imgs/03-quotation-generating-agent/32.PNG)
 
-33. `File`의 `설명`란에 project3-snippets.txt 파일 내 33번 값을 입력한다. 그리고 `X`를 클릭한다.
+33. `File`의 `설명`란에 [project3-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project3-snippets.txt) 파일 내 33번 값을 입력한다. 그리고 `X`를 클릭한다.
 ![](../../imgs/03-quotation-generating-agent/33.PNG)
 
 ```{Note}
@@ -149,7 +149,7 @@ Table에는 엑셀 내에 만들어 둔 테이블이 선택지로 표시된다. 
 34. `Row`의 `사용자 지정`을 클릭한다.
 ![](../../imgs/03-quotation-generating-agent/34.PNG)
 
-35. `설명`란에 project3-snippets.txt 파일 내 35번 값을 입력한다. 그리고 `X`를 클릭한다.
+35. `설명`란에 [project3-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project3-snippets.txt) 파일 내 35번 값을 입력한다. 그리고 `X`를 클릭한다.
 ![](../../imgs/03-quotation-generating-agent/35.PNG)
 
 36. `완료 > 실행 후`를 `특정 응답 보내기(아래에 지정)`으로 설정한다. `표시할 메시지`에 `견적서 품목 한 항목 추가 완료`를 입력한 뒤 `저장`을 클릭한다.
@@ -178,7 +178,7 @@ Table에는 엑셀 내에 만들어 둔 테이블이 선택지로 표시된다. 
 참조 자료의 이름과 설명을 언제 사용되어야 하는 자료인지 구체적으로 적으면 필요한 상황에서 더 잘 선택될 수 있다.
 ```
 
-42. `개요` 페이지에서 `지침`을 project3-snippets.txt 파일 내 42번 값으로 수정한다. 
+42. `개요` 페이지에서 `지침`을 [project3-snippets.txt](https://github.com/Indie-Garage/copilot-studio/blob/main/snippets/project3-snippets.txt) 파일 내 42번 값으로 수정한다. 
 ![](../../imgs/03-quotation-generating-agent/42.PNG)
 
 ```{Note}
