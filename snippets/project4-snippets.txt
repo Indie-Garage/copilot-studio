@@ -1,0 +1,48 @@
+>>> 22번
+==================================================
+{
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "소속 지역을 선택하세요:",
+            "wrap": true,
+            "weight": "Bolder",
+            "size": "Medium"
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "id": "regionChoice",
+            "choices": [
+                {
+                    "title": "서울",
+                    "value": "서울"
+                },
+                {
+                    "title": "경기",
+                    "value": "경기"
+                },
+                {
+                    "title": "울산",
+                    "value": "울산"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "제출"
+        }
+    ]
+}
+
+>>> 27번
+==================================================
+[ "https://<테넌트명>.sharepoint.com/sites/<SharePoint 사이트 ID 값>/Shared Documents/일반/프로젝트4/" & Topic.regionChoice ]
+
+>>> 31번
+==================================================
+제공된 정보를 기반으로 정확하게 사용자의 질문에 답을 해야 합니다. 출장 관련 문의가 오면 <출장 관련 문의> 토픽을 사용해주세요.

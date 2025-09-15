@@ -1,0 +1,95 @@
+>>> 3번
+==================================================
+1. 사용자가 회사명을 입력하면 각 회사마다 한번씩 web search를 사용하여 최신 뉴스를 검색한다. 검색 쿼리는 다음과 같이 진행한다. "<회사명> 오늘의 뉴스"
+
+>>> 8번
+==================================================
+웹 검색의 결과물에서 주요정보를 파싱한뒤 JSON 형태로 저장해주세요. JSON에는 아래와 같은 결과물이 포함되어야 합니다. 
+- 회사명
+- 뉴스 제목
+- 뉴스 내용
+- 참고 URL
+
+>>> 11번
+==================================================
+1. 사용자가 회사명을 입력하면 각 회사마다 한번씩 web search를 사용하여 최신 뉴스를 검색한다. 검색 쿼리 다음과 같이 진행한다. "<회사명> 오늘의 뉴스"
+2. 모든 web search의 결과물을 <웹 검색 결과물 파싱 및 저장> 을 사용하여 파싱하고 저장한다. <웹 검색 결과물 파싱 및 저장> 은 한 번만 사용한다.
+
+>>> 25번
+==================================================
+"<!DOCTYPE html>
+<html lang=""ko"">
+<head>
+  <meta charset=""UTF-8"">
+  <title>업계 주요 뉴스</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 20px;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .topic {
+      margin: 30px auto;
+      max-width: 800px;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .news-item {
+      margin-bottom: 20px;
+    }
+    .news-title a {
+      font-size: 18px;
+      font-weight: bold;
+      color: #2980b9;
+      text-decoration: none;
+    }
+    .news-title a:hover {
+      text-decoration: underline;
+    }
+    .news-summary {
+      margin-top: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>업계 주요 뉴스</h1>
+
+  <div class=""topic"">
+    <h2>마이크로소프트</h2>
+
+    <div class=""news-item"">
+      <div class=""news-title"">
+        <a class==""URL"" href=""https://www.msn.com/ko-kr/news/techandscience/%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EC%97%86%EB%8A%94-%EC%84%B8%EC%83%81-ms-%EC%96%B4%EC%84%BC%ED%8B%B0%EC%BC%80%EC%9D%B4%ED%84%B0-%EC%A0%80%EC%9E%A5-%EB%AA%A8%EB%93%A0-%EB%B9%84%EB%B2%88-%EC%98%81%EA%B5%AC-%EC%82%AD%EC%A0%9C/ar-AA1JOoXT?ocid=BingNewsVerp"" target=""_blank"">비밀번호 없는 세상…MS, 어센티케이터 저장 모든 비번 영구 삭제</a>
+      </div>
+      <div class=""news-summary"">
+        정부는 오늘부터 민생 회복을 위한 지원금 신청을 받기 시작했다. 대상은 소상공인과 저소득층이며, 온라인과 오프라인 모두 신청 가능하다.
+      </div>
+    </div>
+
+    <div class=""news-item"">
+      <div class=""news-title"">
+        <a class==""URL"" href=""https://www.tokenpost.kr/news/tech/272216"" target=""_blank"">마이크로소프트 애저 AI 호실적에 4조 달러 시총 돌파</a>
+      </div>
+      <div class=""news-summary"">
+        마이크로소프트(MSFT)가 월가의 예상을 크게 웃도는 실적을 발표하며 시간 외 거래에서 9% 넘게 급등했다. 이에 따라 시가총액은 4조 달러(약 5,760조 원)를 돌파하며 다시 한 번 사상 최고치를 경신했다.
+      </div>
+    </div>
+  </div>
+</body>
+</html>"
+
+>>> 34번
+==================================================
+1. 사용자가 회사명을 입력하면 각 회사마다 한번씩 web search를 사용하여 최신 뉴스를 검색한다. 검색 쿼리 다음과 같이 진행한다. "<회사명> 오늘의 뉴스"
+2. 모든 web search의 결과물을 <웹 검색 결과물 파싱 및 저장> 을 사용하여 파싱하고 저장한다. <웹 검색 결과물 파싱 및 저장> 은 한 번만 사용한다.
+3. <Global.searchResults> 에 있는 내용을 사용하여 <Global.htmlTemplate> 템플릿의 내용을 채워 넣는다. 
+4. 채워진 html 파일을 <메일 보내기(V2)> 를 사용해서 전송한다.
